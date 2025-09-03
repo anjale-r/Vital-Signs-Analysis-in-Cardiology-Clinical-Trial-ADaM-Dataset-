@@ -1,22 +1,19 @@
 # Vital-Signs-Analysis-in-Cardiology-Clinical-Trial-ADaM-Dataset-
 
-##Program: ttest_and_wilcoxon.sas
-  Purpose: Compare change from baseline (CHG) between 
-           treatment groups using:
-           1. Normality check (PROC UNIVARIATE)
-           2. Independent t-test (PROC TTEST)
-           3. Wilcoxon rank-sum test (PROC NPAR1WAY)
-  Dataset: ADaM dataset (adam_vs) with variables:
-           - TRTPN : Treatment group (1/2)
-           - CHG   : Change from baseline
+##Comparing the change from baseline (CHG) between treatment groups using:
+##1. Normality check (PROC UNIVARIATE)
+##2. Independent t-test (PROC TTEST)
+##3. Wilcoxon rank-sum test (PROC NPAR1WAY)
+  
+##Dataset: ADaM dataset (adam_vs) of vital signs.
 
 ## Normality Assessment
 The Shapiro-Wilk test and Q–Q plots indicated that the CHG variable 
-was not normally distributed in one or both treatment groups. 
+was not normally distributed in one or both treatment groups.  Shapiro-Wilk p-value:
 
 ## Alternative Analysis
 Since the normality assumption was violated, a Wilcoxon rank-sum test 
-was performed. The nonparametric results showed [insert result here]. 
+was performed.  
 This approach provides a more reliable comparison of treatment groups 
 under non-normal data conditions.
 
