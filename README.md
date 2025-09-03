@@ -1,9 +1,12 @@
 # Vital-Signs-Analysis-in-Cardiology-Clinical-Trial-ADaM-Dataset-
 
 ## Comparing the change from baseline (CHG) between treatment groups using:
-## 1. Normality check (PROC UNIVARIATE)
-## 2. Independent t-test (PROC TTEST)
-## 3. Wilcoxon rank-sum test (PROC NPAR1WAY)
+
+1. Normality check (PROC UNIVARIATE)
+   
+3. Independent t-test (PROC TTEST)
+   
+5. Wilcoxon rank-sum test (PROC NPAR1WAY)
   
 ## Dataset: ADaM dataset (adam_vs) of vital signs.
 
