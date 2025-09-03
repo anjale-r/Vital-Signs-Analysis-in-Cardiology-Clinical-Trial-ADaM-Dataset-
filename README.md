@@ -1,11 +1,11 @@
 # Vital-Signs-Analysis-in-Cardiology-Clinical-Trial-ADaM-Dataset-
 
-##Comparing the change from baseline (CHG) between treatment groups using:
-##1. Normality check (PROC UNIVARIATE)
-##2. Independent t-test (PROC TTEST)
-##3. Wilcoxon rank-sum test (PROC NPAR1WAY)
+## Comparing the change from baseline (CHG) between treatment groups using:
+## 1. Normality check (PROC UNIVARIATE)
+## 2. Independent t-test (PROC TTEST)
+## 3. Wilcoxon rank-sum test (PROC NPAR1WAY)
   
-##Dataset: ADaM dataset (adam_vs) of vital signs.
+## Dataset: ADaM dataset (adam_vs) of vital signs.
 
 ## Normality Assessment
 The Shapiro-Wilk test and Q–Q plots indicated that the CHG variable 
